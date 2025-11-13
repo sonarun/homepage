@@ -38,8 +38,13 @@ export async function cleanWidgetGroups(widgets) {
       }
     });
 
-    // delete url from the sanitized options if the widget is not a search or glances widget
-    if (widget.type !== "search" && widget.type !== "glances" && optionKeys.includes("url")) {
+    // delete url from the sanitized options if the widget is not a search, glances, or unifi_drive widget
+    if (
+      widget.type !== "search" &&
+      widget.type !== "glances" &&
+      widget.type !== "unifi_drive" &&
+      optionKeys.includes("url")
+    ) {
       delete sanitizedOptions.url;
     }
 

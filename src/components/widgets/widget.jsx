@@ -10,6 +10,7 @@ const widgetMappings = {
   datetime: dynamic(() => import("components/widgets/datetime/datetime")),
   logo: dynamic(() => import("components/widgets/logo/logo"), { ssr: false }),
   unifi_console: dynamic(() => import("components/widgets/unifi_console/unifi_console")),
+  unifi_drive: dynamic(() => import("components/widgets/unifi_drive/unifi_drive")),
   glances: dynamic(() => import("components/widgets/glances/glances")),
   openmeteo: dynamic(() => import("components/widgets/openmeteo/openmeteo")),
   longhorn: dynamic(() => import("components/widgets/longhorn/longhorn")),

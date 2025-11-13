@@ -66,6 +66,17 @@
         "wait": "Please wait",
         "empty_data": "Subsystem status unknown"
     },
+    "unifi_drive": {
+        "total": "Total",
+        "used": "Used",
+        "available": "Available",
+        "free": "Free",
+        "status": "Status",
+        "healthy": "Healthy",
+        "degraded": "Degraded",
+        "no_data": "No storage data available",
+        "wait": "Please wait"
+    },
     "docker": {
         "rx": "RX",
         "tx": "TX",
