@@ -1,5 +1,3 @@
----
-
 ## UniFi Drive (UNAS) — Extended Widget (Custom Fork)
 
 This branch extends the [upstream UniFi Drive widget](https://github.com/gethomepage/homepage/pull/6461) with features not included in mainline homepage.
@@ -55,8 +53,6 @@ widget:
 |--------|-------------|
 | `custom/unifi-drive-shares` | Service widget + per-share support |
 | `custom/unifi-drive-full` | Everything above + info widget |
-
----
 
 <p align="center">
   <picture>
