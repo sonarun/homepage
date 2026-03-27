@@ -9,7 +9,7 @@ This branch extends the [upstream UniFi Drive widget](https://github.com/gethome
 **Per-share breakdown** — shows individual shared drives with usage bars, icons, and quota-aware percentages below the standard storage stats.
 
 <p align="center">
-  <img src="images/unifi_drive/shares-widget.jpg" width="400" />
+  <img src="images/unifi_drive/service-widget-shares.png" width="400" />
 </p>
 
 ### Configuration
