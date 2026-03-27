@@ -8,6 +8,9 @@ const widget = {
     storage: {
       endpoint: "v1/systems/storage?type=detail",
     },
+    shares: {
+      endpoint: "v1/shared",
+    },
   },
 };
 

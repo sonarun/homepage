@@ -412,6 +412,13 @@ export function cleanServiceGroups(groups) {
           // unifi
           site,
 
+          // unifi_drive
+          enableShares,
+          shares,
+          showPercentage,
+          shareIcon,
+          shareIcons,
+
           // unraid
           pool1,
           pool2,
@@ -557,6 +564,19 @@ export function cleanServiceGroups(groups) {
         if (type === "truenas") {
           if (enablePools !== undefined) widget.enablePools = JSON.parse(enablePools);
           if (nasType !== undefined) widget.nasType = nasType;
+        }
+        if (type === "unifi_drive") {
+          if (enableShares !== undefined) widget.enableShares = JSON.parse(enableShares);
+          if (shares !== undefined) widget.shares = shares.split(",").map((s) => s.trim());
+          if (showPercentage !== undefined) widget.showPercentage = JSON.parse(showPercentage);
+          if (shareIcon) widget.shareIcon = shareIcon;
+          if (shareIcons !== undefined) {
+            widget.shareIcons = {};
+            shareIcons.split(",").forEach((mapping) => {
+              const [shareName, icon] = mapping.split(":").map((s) => s.trim());
+              if (shareName && icon) widget.shareIcons[shareName] = icon;
+            });
+          }
         }
         if (["diskstation", "qnap"].includes(type)) {
           if (volume) widget.volume = volume;
