@@ -10,6 +10,7 @@ This branch extends the [upstream UniFi Drive widget](https://github.com/gethome
 
 <p align="center">
   <img src="images/unifi_drive/service-widget-shares.png" width="400" />
+  <img src="images/unifi_drive/info-widget-pools.png" width="300" />
 </p>
 
 ### Configuration (service widget with shares)
