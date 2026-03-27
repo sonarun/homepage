@@ -11,7 +11,7 @@ This branch extends the [upstream UniFi Drive widget](https://github.com/gethome
 **Info widget (top-bar)** — compact resource-style widget with pools or shares view, filterable by pool ID or share name.
 
 <p align="center">
-  <img src="images/unifi_drive/shares-widget.jpg" width="400" />
+  <img src="images/unifi_drive/service-widget-shares.png" width="400" />
 </p>
 
 ### Configuration (service widget with shares)
