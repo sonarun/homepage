@@ -11,6 +11,9 @@ const widget = {
     shares: {
       endpoint: "v1/shared",
     },
+    pools: {
+      endpoint: "v2/storage",
+    },
   },
 };
 

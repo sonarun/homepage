@@ -69,7 +69,10 @@
     "unifi_drive": {
         "healthy": "Healthy",
         "degraded": "Degraded",
-        "no_data": "No storage data available"
+        "no_data": "No storage data available",
+        "wait": "Waiting for data",
+        "free": "Free",
+        "total": "Total"
     },
     "docker": {
         "rx": "RX",

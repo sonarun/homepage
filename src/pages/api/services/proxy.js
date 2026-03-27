@@ -16,6 +16,7 @@ export default async function handler(req, res) {
     // exceptions
     if (type === "calendar") type = "ical";
     else if (service === "unifi_console" && group === "unifi_console") type = "unifi_console";
+    else if (service === "unifi_drive" && group === "unifi_drive") type = "unifi_drive";
 
     const widget = widgets[type];
 
