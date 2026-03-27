@@ -1,3 +1,41 @@
+---
+
+## UniFi Drive (UNAS) — Per-Share Widget (Custom Fork)
+
+This branch extends the [upstream UniFi Drive widget](https://github.com/gethomepage/homepage/pull/6461) with per-share breakdown support not included in mainline homepage.
+
+### What this branch adds
+
+**Per-share breakdown** — shows individual shared drives with usage bars, icons, and quota-aware percentages below the standard storage stats.
+
+<p align="center">
+  <img src="images/unifi_drive/shares-widget.jpg" width="400" />
+</p>
+
+### Configuration
+
+```yaml
+widget:
+  type: unifi_drive
+  url: https://unifi.host.or.ip
+  username: your_username
+  password: your_password
+  enableShares: true
+  showPercentage: true
+  shares: Photos, Videos, files          # optional, filter by name
+  shareIcon: mdi-folder                  # optional, default icon
+  shareIcons: Photos:mdi-image,Videos:mdi-video  # optional, per-share icons
+```
+
+### Branches
+
+| Branch | Description |
+|--------|-------------|
+| `custom/unifi-drive-shares` | Service widget + per-share support |
+| `custom/unifi-drive-full` | Everything above + info widget (top-bar) |
+
+---
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="images/banner_light@2x.png">
