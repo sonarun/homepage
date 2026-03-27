@@ -1,5 +1,3 @@
----
-
 ## UniFi Drive (UNAS) — Per-Share Widget (Custom Fork)
 
 This branch extends the [upstream UniFi Drive widget](https://github.com/gethomepage/homepage/pull/6461) with per-share breakdown support not included in mainline homepage.
@@ -33,8 +31,6 @@ widget:
 |--------|-------------|
 | `custom/unifi-drive-shares` | Service widget + per-share support |
 | `custom/unifi-drive-full` | Everything above + info widget (top-bar) |
-
----
 
 <p align="center">
   <picture>
